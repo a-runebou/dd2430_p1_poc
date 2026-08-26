@@ -14,6 +14,9 @@ def generate(prompt: str) -> str:
             "model": MODEL,
             "prompt": prompt,
             "stream": False,
+            "options": {
+                "temperature": 0.2,
+            }
         },
         timeout=120,
     )
