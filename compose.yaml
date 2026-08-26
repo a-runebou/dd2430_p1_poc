@@ -6,3 +6,5 @@ services:
     volumes:
       - ./src:/app/src
       - ./artifacts:/app/artifacts
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
