@@ -5,3 +5,4 @@ services:
     container_name: dd2430_p1_poc
     volumes:
       - ./src:/app/src
+      - ./artifacts:/app/artifacts
